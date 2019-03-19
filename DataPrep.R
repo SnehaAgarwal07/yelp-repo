@@ -22,3 +22,5 @@ data <- business %>%
   filter(city=="Las Vegas")%>%
   left_join(reviews,by="business_id")
 
+Test test
+
